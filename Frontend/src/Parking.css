@@ -1,0 +1,102 @@
+* {
+  background-image: url("./bg-home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.button-vehicle {
+  position: relative;
+  padding-top: 25px;
+}
+
+.button-create {
+  position: absolute;
+  right: 250px;
+  background: #7ED958;
+  text-transform: initial;
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: all 0.3s ease;
+}
+
+.button-create:hover {
+  position: absolute;
+  right: 250px;
+  background: rgb(110, 236, 110);
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 50px;
+}
+
+
+.card {
+  display: grid;
+  margin: auto auto 30px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-content: center;
+  justify-content: center;
+  background: #ffffff;
+  width: 50%;
+  border-radius: 25px;
+  box-shadow: 0.5px 1px 10px 0.5px;
+}
+
+
+.button-card-style {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.button-card-style:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+td {
+  padding: 8px;
+  text-align: center;
+  background: #ffffff;
+}
+th {
+  text-align: center;
+  padding: 8px;
+  background: rgba(146, 245, 146, 0.639);
+}
