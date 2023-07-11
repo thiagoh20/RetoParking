@@ -8,7 +8,10 @@ Este repositorio contiene un programa de registro y control de vehículos en un 
 4. **Consultar en todo momento un vehículo por placa** para ver su hora de ingreso.
 5. La **tarifa para vehículos estacionados** se calcula de la siguiente forma: $100 pesos por cada minuto o fracción de minuto.
 6. Al **dar salida a un vehículo**, el sistema informa del cobro total, retira el vehículo del sistema y libera el cupo en el parqueadero.
-
+# Vista 1
+![Logo del Proyecto](imgPark.png)
+# Vista 2
+![Logo del Proyecto](imgParkCreate.png)
 ## Tecnologías utilizadas
 
 - React
